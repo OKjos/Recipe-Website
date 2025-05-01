@@ -56,3 +56,18 @@ Run:
     Modern web browser (Chrome, Firefox, Edge, Safari)
 
     Internet connection (for API calls)
+
+
+
+
+Application 
+![a7c3b707d63b494a05f5692f068d79b5](https://github.com/user-attachments/assets/9a13fe9c-d3e5-4742-b8a6-3203afc6315d)
+
+![e792f2622d89f4dab5f689fa93838103](https://github.com/user-attachments/assets/63791c0c-1ca7-4e6e-a5cd-8cac32691a11)
+
+![018b997f89badfc03657c552a7da9c88](https://github.com/user-attachments/assets/67296bee-7f05-4e32-9369-8460b872f22a)
+
+![090cf54588bacb60bac37cb7fac23a27](https://github.com/user-attachments/assets/b592553b-ab25-4dd0-badd-1d8020dceec8)
+
+![6fd5d18ffadeae2d2d210f91bcd829e1](https://github.com/user-attachments/assets/a237732b-1537-4f05-8da7-6dfb841e3304)
+
