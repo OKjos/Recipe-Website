@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="search">
+                <!-- Main title -->
+                <h1 class="title">Recipe Finder</h1>
+
+                <div class="search-box">
+                    <!-- Dropdown for selecting search type -->
+                    <select class="search-type-box" id="search-type">
+                        <option value="ingredient">By Ingredient</option>
+                        <option value="category">By Category</option>
+                        <option value="name">By Name</option>
+                    </select>
+                    <input type="text" class="search-content" id="search-input" placeholder="Enter ingredients to search">
+                    <button type="submit" class="submit-button" id="search-button">Search</button>
+                </div>
+            </div>
+
+            <div class="search-results">
+                 <!-- Title for the search results section -->
+                <h2 class="title">Search Results: </h2>
+                <!-- Button to toggle favorites view -->
+                <button id="show-favorites-btn" class="favorites-toggle-btn">
+                    <i class="fas fa-heart">View Favorites</i>
+                </button>
+                 <!-- Button to toggle dark mode -->
+                <button id="darkModeToggle" class="dark-mode-toggle">
+                    <span class="toggle-text">Dark Mode</span>
+                </button>
+            </div>
+            <!-- Container for displaying meal information -->
+            <div id="meal" class="meal-container"></div>
+            <div class="meal-details">
+                <!-- Content area for meal details -->
+                <div class="meal-details-content"></div>
+                <!-- Button to close the recipe details -->
+                <button id="recipe-close-btn" class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/storage.js"></script>
+</body>
+</html>
